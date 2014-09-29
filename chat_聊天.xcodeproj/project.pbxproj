@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3B780B18583FBD00ABD0EA /* RightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3B780A18583FBD00ABD0EA /* RightCell.xib */; };
+		BC55A95C18585997004385E7 /* RightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95B18585997004385E7 /* RightCell.m */; };
 		BCD78E1E1857FB52009CEE78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD78E1D1857FB52009CEE78 /* UIKit.framework */; };
 		BCD78E201857FB52009CEE78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD78E1F1857FB52009CEE78 /* Foundation.framework */; };
 		BCD78E221857FB52009CEE78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD78E211857FB52009CEE78 /* CoreGraphics.framework */; };
@@ -18,9 +20,19 @@
 		BCD78E341857FB52009CEE78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E331857FB52009CEE78 /* Default-568h@2x.png */; };
 		BCD78E371857FB52009CEE78 /* LPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD78E361857FB52009CEE78 /* LPCViewController.m */; };
 		BCD78E3A1857FB52009CEE78 /* LPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E381857FB52009CEE78 /* LPCViewController.xib */; };
+		BCD78E421857FC18009CEE78 /* LPCChatDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD78E411857FC18009CEE78 /* LPCChatDataModel.m */; };
+		BCD78E441857FD60009CEE78 /* righttou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E431857FD60009CEE78 /* righttou@2x.png */; };
+		BCD78E461857FD66009CEE78 /* lefttou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E451857FD66009CEE78 /* lefttou@2x.png */; };
+		BCD78E4A18580FEC009CEE78 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E4918580FEC009CEE78 /* right@2x.png */; };
+		BCD78E4C1858101C009CEE78 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E4B1858101C009CEE78 /* left@2x.png */; };
+		BCD78E521858141A009CEE78 /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD78E511858141A009CEE78 /* LeftCell.xib */; };
+		BCD78E551858143A009CEE78 /* LeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD78E541858143A009CEE78 /* LeftCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3B780A18583FBD00ABD0EA /* RightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightCell.xib; sourceTree = "<group>"; };
+		BC55A95A18585997004385E7 /* RightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCell.h; sourceTree = "<group>"; };
+		BC55A95B18585997004385E7 /* RightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCell.m; sourceTree = "<group>"; };
 		BCD78E1A1857FB52009CEE78 /* chat_聊天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chat_聊天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD78E1D1857FB52009CEE78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCD78E1F1857FB52009CEE78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +49,15 @@
 		BCD78E351857FB52009CEE78 /* LPCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPCViewController.h; sourceTree = "<group>"; };
 		BCD78E361857FB52009CEE78 /* LPCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPCViewController.m; sourceTree = "<group>"; };
 		BCD78E391857FB52009CEE78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPCViewController.xib; sourceTree = "<group>"; };
+		BCD78E401857FC18009CEE78 /* LPCChatDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCChatDataModel.h; sourceTree = "<group>"; };
+		BCD78E411857FC18009CEE78 /* LPCChatDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCChatDataModel.m; sourceTree = "<group>"; };
+		BCD78E431857FD60009CEE78 /* righttou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "righttou@2x.png"; sourceTree = "<group>"; };
+		BCD78E451857FD66009CEE78 /* lefttou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lefttou@2x.png"; sourceTree = "<group>"; };
+		BCD78E4918580FEC009CEE78 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		BCD78E4B1858101C009CEE78 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		BCD78E511858141A009CEE78 /* LeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		BCD78E531858143A009CEE78 /* LeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftCell.h; sourceTree = "<group>"; };
+		BCD78E541858143A009CEE78 /* LeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +104,20 @@
 		BCD78E231857FB52009CEE78 /* chat_聊天 */ = {
 			isa = PBXGroup;
 			children = (
+				BCD78E4D1858103A009CEE78 /* image */,
 				BCD78E2C1857FB52009CEE78 /* LPCAppDelegate.h */,
 				BCD78E2D1857FB52009CEE78 /* LPCAppDelegate.m */,
 				BCD78E351857FB52009CEE78 /* LPCViewController.h */,
 				BCD78E361857FB52009CEE78 /* LPCViewController.m */,
 				BCD78E381857FB52009CEE78 /* LPCViewController.xib */,
+				BCD78E401857FC18009CEE78 /* LPCChatDataModel.h */,
+				BCD78E411857FC18009CEE78 /* LPCChatDataModel.m */,
+				BCD78E531858143A009CEE78 /* LeftCell.h */,
+				BCD78E541858143A009CEE78 /* LeftCell.m */,
+				BCD78E511858141A009CEE78 /* LeftCell.xib */,
+				BC55A95A18585997004385E7 /* RightCell.h */,
+				BC55A95B18585997004385E7 /* RightCell.m */,
+				BC3B780A18583FBD00ABD0EA /* RightCell.xib */,
 				BCD78E241857FB52009CEE78 /* Supporting Files */,
 			);
 			path = "chat_聊天";
@@ -105,6 +135,17 @@
 				BCD78E331857FB52009CEE78 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD78E4D1858103A009CEE78 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BCD78E451857FD66009CEE78 /* lefttou@2x.png */,
+				BCD78E4B1858101C009CEE78 /* left@2x.png */,
+				BCD78E431857FD60009CEE78 /* righttou@2x.png */,
+				BCD78E4918580FEC009CEE78 /* right@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +205,12 @@
 				BCD78E321857FB52009CEE78 /* Default@2x.png in Resources */,
 				BCD78E341857FB52009CEE78 /* Default-568h@2x.png in Resources */,
 				BCD78E3A1857FB52009CEE78 /* LPCViewController.xib in Resources */,
+				BCD78E441857FD60009CEE78 /* righttou@2x.png in Resources */,
+				BCD78E461857FD66009CEE78 /* lefttou@2x.png in Resources */,
+				BCD78E4A18580FEC009CEE78 /* right@2x.png in Resources */,
+				BCD78E4C1858101C009CEE78 /* left@2x.png in Resources */,
+				BCD78E521858141A009CEE78 /* LeftCell.xib in Resources */,
+				BC3B780B18583FBD00ABD0EA /* RightCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +224,9 @@
 				BCD78E2A1857FB52009CEE78 /* main.m in Sources */,
 				BCD78E2E1857FB52009CEE78 /* LPCAppDelegate.m in Sources */,
 				BCD78E371857FB52009CEE78 /* LPCViewController.m in Sources */,
+				BCD78E421857FC18009CEE78 /* LPCChatDataModel.m in Sources */,
+				BCD78E551858143A009CEE78 /* LeftCell.m in Sources */,
+				BC55A95C18585997004385E7 /* RightCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +349,7 @@
 				BCD78E3F1857FB52009CEE78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
